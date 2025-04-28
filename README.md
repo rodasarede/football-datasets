@@ -22,7 +22,7 @@ You need to have Python version >=3.5:
 
 - Install requirements using `pip install -r scripts/requirements.txt`
 - Run the script `python scripts/process.py`
-- Update datapackage `pyhton scripts/process.py`
+- Update datapackage `python scripts/process.py`
 
 ## Automation
 

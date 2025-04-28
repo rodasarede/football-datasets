@@ -13,7 +13,7 @@ BASE_URL = 'https://www.football-data.co.uk/'
 COLUMNS_ORDER = [
     "Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG", "FTR", 
     "HTHG", "HTAG", "HTR", "Referee", "HS", "AS", "HST", 
-    "AST", "HF", "AF", "HC", "AC", "HY", "AY", "HR", "AR"
+    "AST", "HF", "AF", "HC", "AC", "HY", "AY", "HR", "AR", "B365H", "B365D", "B365A"
 ]
 
 LEAGUES = [
@@ -21,7 +21,14 @@ LEAGUES = [
     {'name': 'la-liga', 'path': 'spainm.php', 'key': 'SP1', 'links': [], 'range': 22},
     {'name': 'bundesliga', 'path': 'germanym.php', 'key': 'D1', 'links': [], 'range': 22},
     {'name': 'serie-a', 'path': 'italym.php', 'key': 'I1', 'links': [], 'range': 22},
-    {'name': 'ligue-1', 'path': 'francem.php', 'key': 'F1', 'links': [], 'range': 22}
+    {'name': 'ligue-1', 'path': 'francem.php', 'key': 'F1', 'links': [], 'range': 22},
+    {'name': 'liga-portugal', 'path': 'portugalm.php', 'key': 'P1', 'links': [], 'range': 22},
+    {'name': 'eredevise', 'path': 'netherlandsm.php', 'key': 'N1', 'links': [], 'range': 22},
+    {'name': 'belgium', 'path': 'belgiumm.php', 'key': 'B1', 'links': [], 'range': 22},
+    {'name': 'turkey', 'path': 'turkeym.php', 'key': 'T1', 'links': [], 'range': 22},
+    {'name': 'greece', 'path': 'greecem.php', 'key': 'G1', 'links': [], 'range': 22},
+    {'name': 'scotland', 'path': 'scotlandm.php', 'key': 'S1', 'links': [], 'range': 22}
+
 ]
 
 def fetch_league_links(league):
